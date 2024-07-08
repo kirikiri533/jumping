@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #ground{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  #character{
+    width: 100px;
+    height: 100px;
+    background-image: url("img/luffy.png");
+    background-size: contain;
+    position: absolute;
+    bottom: 90px;
+    right: calc(100% - 120px);
+  }
+  
+  #enemy{
+    width: 120px;
+    height: 120px;
+    background-image: url("img/enel.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 90px;
+    left: calc(100% - 140px);
+  }
+  
+  .obstacle{
+    width: 30px;
+    background-color: rgb(132, 245, 255);
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+  }
+  
+  h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
